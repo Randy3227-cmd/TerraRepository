@@ -1,13 +1,13 @@
-package quickcrud.core;
+package com.terraorm.core;
 
 import java.util.List;
 
-public class SimpleRepository<T, ID> implements CrudRepository<T, ID> {
+public class TerraRepository<T, ID> implements CrudRepository<T, ID> {
 
     private final Class<T> clazz;
     private final EntityManager em = new EntityManager();
 
-    public SimpleRepository(Class<T> clazz) {
+    public TerraRepository(Class<T> clazz) {
         this.clazz = clazz;
     }
 

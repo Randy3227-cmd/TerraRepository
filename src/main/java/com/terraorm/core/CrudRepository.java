@@ -1,4 +1,4 @@
-package quickcrud.core;
+package com.terraorm.core;
 
 import java.util.List;
 

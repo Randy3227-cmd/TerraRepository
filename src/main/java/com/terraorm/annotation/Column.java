@@ -1,13 +1,13 @@
-package quickcrud.annotation;
+package com.terraorm.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-// to annotate the classes 
-@Target(ElementType.TYPE)
+//To annotation a field with the name of the column 
+@Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface Table {
+public @interface Column {
     String name();
 }

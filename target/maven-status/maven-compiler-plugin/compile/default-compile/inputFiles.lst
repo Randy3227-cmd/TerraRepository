@@ -1,0 +1,9 @@
+/home/itu/Documents/GitHub/TerraRepository/src/main/java/com/terraorm/core/CrudRepository.java
+/home/itu/Documents/GitHub/TerraRepository/src/main/java/com/terraorm/core/EntityManager.java
+/home/itu/Documents/GitHub/TerraRepository/src/main/java/com/terraorm/annotation/Search.java
+/home/itu/Documents/GitHub/TerraRepository/src/main/java/com/terraorm/annotation/Column.java
+/home/itu/Documents/GitHub/TerraRepository/src/main/java/com/terraorm/tools/ConfigLoader.java
+/home/itu/Documents/GitHub/TerraRepository/src/main/java/com/terraorm/annotation/PrimaryKey.java
+/home/itu/Documents/GitHub/TerraRepository/src/main/java/com/terraorm/tools/Db.java
+/home/itu/Documents/GitHub/TerraRepository/src/main/java/com/terraorm/annotation/Table.java
+/home/itu/Documents/GitHub/TerraRepository/src/main/java/com/terraorm/core/TerraRepository.java

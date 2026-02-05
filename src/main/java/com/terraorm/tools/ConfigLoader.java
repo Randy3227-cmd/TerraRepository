@@ -1,4 +1,4 @@
-package tools;
+package com.terraorm.tools;
 
 import java.io.InputStream;
 import java.util.Properties;

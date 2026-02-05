@@ -1,7 +1,7 @@
-package quickcrud.core;
+package com.terraorm.core;
 
-import quickcrud.annotation.*;
-import quickcrud.datasource.Db;
+import com.terraorm.annotation.*;
+import com.terraorm.tools.Db;
 
 import java.lang.reflect.Field;
 import java.sql.*;

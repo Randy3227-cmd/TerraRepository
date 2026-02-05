@@ -1,0 +1,9 @@
+com/terraorm/core/EntityManager.class
+com/terraorm/tools/ConfigLoader.class
+com/terraorm/core/TerraRepository.class
+com/terraorm/annotation/Column.class
+com/terraorm/core/CrudRepository.class
+com/terraorm/annotation/Table.class
+com/terraorm/tools/Db.class
+com/terraorm/annotation/PrimaryKey.class
+com/terraorm/annotation/Search.class
