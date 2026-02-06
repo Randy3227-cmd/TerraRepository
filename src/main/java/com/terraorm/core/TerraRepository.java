@@ -17,6 +17,16 @@ public class TerraRepository<T, ID> implements CrudRepository<T, ID> {
     }
 
     @Override
+    public T update(T entity) throws Exception {
+        return em.update(entity);
+    }
+
+    @Override
+    public T saveOrUpdate(T entity) throws Exception {
+        return em.saveOrUpdate(entity);
+    }
+
+    @Override
     public T findById(ID id) throws Exception {
         return em.findById(clazz, id);
     }
@@ -27,12 +37,22 @@ public class TerraRepository<T, ID> implements CrudRepository<T, ID> {
     }
 
     @Override
-    public void delete(T entity) {
-        throw new UnsupportedOperationException("TODO");
+    public List<T> findWhere(String where, Object... params) throws Exception {
+        return em.findWhere(clazz, where, params);
     }
 
     @Override
-    public void deleteById(ID id) {
-        throw new UnsupportedOperationException("TODO");
+    public List<T> findPage(int offset, int limit) throws Exception {
+        return em.findPage(clazz, offset, limit);
+    }
+
+    @Override
+    public void delete(T entity) throws Exception {
+        em.delete(entity);
+    }
+
+    @Override
+    public void deleteById(ID id) throws Exception {
+        em.deleteById(clazz, id);
     }
 }
